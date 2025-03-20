@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger base-finder.yml from efendikaptan
+      - name: Trigger ana-domain.yml from efendikaptan
         run: |
           RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
             -X POST \
@@ -22,7 +22,7 @@ jobs:
           echo "Response Code: $RESPONSE"
           cat response.json
 
-      - name: Trigger base-finder.yml from Clone
+      - name: Trigger ana-domain.yml from Clone
         run: |
           RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
             -X POST \
