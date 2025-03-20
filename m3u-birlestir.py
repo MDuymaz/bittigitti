@@ -1,6 +1,7 @@
 import requests
 import re
 from collections import defaultdict
+import os
 
 # M3U dosyalarının URL'leri
 urls = [
@@ -13,6 +14,10 @@ urls = [
 merged_content = ""
 extm3u_added = False  # #EXTM3U etiketi zaten eklendi mi kontrolü
 grouped_lines = defaultdict(list)  # tvg-name ve group-title'a göre gruplayacağız
+
+# Playlist dosyasının mevcut olup olmadığını kontrol etme
+playlist_file = "playlist.m3u"
+file_exists = os.path.exists(playlist_file)
 
 # Her bir dosyayı indirip içeriğini birleştirme
 for url in urls:
@@ -71,7 +76,11 @@ for (tvg_name, group_title) in sorted(grouped_lines.keys()):
         merged_content += group + "\n"
 
 # Sonuçları 'playlist.m3u' dosyasına UTF-8 formatında kaydetme
-with open("playlist.m3u", "w", encoding="utf-8") as f:
+with open(playlist_file, "w", encoding="utf-8") as f:
     f.write(merged_content)
 
-print("M3U dosyaları başarıyla birleştirildi ve 'playlist.m3u' olarak kaydedildi.")
+# Dosya güncellendi mi kontrolü
+if file_exists:
+    print("playlist.m3u dosyası başarıyla güncellendi.")
+else:
+    print("playlist.m3u dosyası başarıyla oluşturuldu.")
