@@ -30,7 +30,7 @@ jobs:
           python your_script_name.py  # Python kodunu çalıştır
 
       - name: Upload the merged M3U playlist
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2  # v3 yerine v2 kullanıyoruz
         with:
           name: playlist
           path: playlist.m3u  # 'playlist.m3u' dosyasını artefakt olarak yükle
