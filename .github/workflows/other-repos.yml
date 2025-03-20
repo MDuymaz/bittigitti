@@ -10,37 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout current repository
-        uses: actions/checkout@v2
-
-      # efendikaptan repository'sini checkout ediyoruz
-      - name: Checkout efendikaptan repository
-        uses: actions/checkout@v2
-        with:
-          repository: 'user/efendikaptan'  # efendikaptan repository'nin ismini yazın
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: efendikaptan
-
-      # Clone repository'sini checkout ediyoruz
-      - name: Checkout Clone repository
-        uses: actions/checkout@v2
-        with:
-          repository: 'user/Clone'  # Clone repository'nin ismini yazın
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: Clone
-
-      # efendikaptan repository'sindeki ana-domain.yml workflow'unu tetikliyoruz
-      - name: Trigger ana-domain.yml from efendikaptan
+      - name: Trigger base-finder.yml from efendikaptan
         run: |
           curl -X POST \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Authorization: token ${{ secrets.MY_PAT }}" \
             -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/efendikaptan/actions/workflows/ana-domain.yml/dispatches
+            https://api.github.com/repos/user/efendikaptan/actions/workflows/base-finder.yml/dispatches
 
-      # Clone repository'sindeki ana-domain.yml workflow'unu tetikliyoruz
-      - name: Trigger ana-domain.yml from Clone
+      - name: Trigger base-finder.yml from Clone
         run: |
           curl -X POST \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Authorization: token ${{ secrets.MY_PAT }}" \
             -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/Clone/actions/workflows/ana-domain.yml/dispatches
+            https://api.github.com/repos/user/Clone/actions/workflows/base-finder.yml/dispatches
