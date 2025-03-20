@@ -10,18 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger ana-domain.yml from efendikaptan
-        run: |
-          RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
-            -X POST \
-            -H "Authorization: token ${{ secrets.MY_PAT }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/efendikaptan/actions/workflows/ana-domain.yml/dispatches)
-
-          echo "Response Code: $RESPONSE"
-          cat response.json
-
+      # Clone repo'sunda 'ana-domain.yml' workflow'unu tetiklemek için
       - name: Trigger ana-domain.yml from Clone
         run: |
           RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
@@ -29,7 +18,20 @@ jobs:
             -H "Authorization: token ${{ secrets.MY_PAT }}" \
             -H "Accept: application/vnd.github.v3+json" \
             -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/Clone/actions/workflows/ana-domain.yml/dispatches)
+            https://api.github.com/repos/MDuymaz/Clone/actions/workflows/ana-domain.yml/dispatches)
+
+          echo "Response Code: $RESPONSE"
+          cat response.json
+
+      # efendikaptan repo'sunda 'ana-domain.yml' workflow'unu tetiklemek için
+      - name: Trigger ana-domain.yml from efendikaptan
+        run: |
+          RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
+            -X POST \
+            -H "Authorization: token ${{ secrets.MY_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -d '{"ref": "main"}' \
+            https://api.github.com/repos/MDuymaz/efendikaptan/actions/workflows/ana-domain.yml/dispatches)
 
           echo "Response Code: $RESPONSE"
           cat response.json
