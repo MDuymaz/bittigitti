@@ -36,7 +36,7 @@ jobs:
           echo "Response Code: $RESPONSE"
           cat response.json
 
-       # goltv repo'sunda 'ana-domain.yml' workflow'unu tetiklemek için
+      # goltv repo'sunda 'ana-domain.yml' workflow'unu tetiklemek için
       - name: Trigger ana-domain.yml from goltv
         run: |
           RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
@@ -45,6 +45,23 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             -d '{"ref": "main"}' \
             https://api.github.com/repos/MDuymaz/goltv/actions/workflows/ana-domain.yml/dispatches)
+
+          echo "Response Code: $RESPONSE"
+          cat response.json
+
+      # 15 dakika bekleyip yeni bir workflow tetiklemek için
+      - name: Wait for 15 minutes
+        run: sleep 900  # 900 saniye = 15 dakika
+
+      # Yeni workflow tetiklemesi
+      - name: Trigger m3u-birlestir.yml from bittigitti
+        run: |
+          RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
+            -X POST \
+            -H "Authorization: token ${{ secrets.MY_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -d '{"ref": "main"}' \
+            https://api.github.com/repos/MDuymaz/bittigitti/actions/workflows/m3u-birlestir.yml/dispatches)
 
           echo "Response Code: $RESPONSE"
           cat response.json
