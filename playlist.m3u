@@ -1,11 +1,6 @@
 #EXTM3U
 
 
-#EXTINF:-1 tvg-name="17:00 MARTIN/FALLADA SAEZ/ORTIZ" tvg-language="Turkish" tvg-country="TR" group-title="TENIS",17:00 MARTIN/FALLADA SAEZ/ORTIZ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1727.xyz/
-https://alpha.cf-worker-fe1eb2e4a902756b.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
-
 #EXTINF:-1 tvg-name="18:00 Q.ZHENG L.DAVIS" tvg-language="Turkish" tvg-country="TR" group-title="TENIS",18:00 Q.ZHENG L.DAVIS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1727.xyz/
@@ -324,7 +319,7 @@ https://playerpro.live/proxy.php?url=https://a.strmrdr-cf-worker-b3b0eb3f3e.work
 #EXTINF:-1 tvg-name="DANIMARKA VS PORTEKIZ" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_DanimarkavsPortekiz" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 DANIMARKA VS PORTEKIZ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex4.m3u8
+https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex5.m3u8
 
 #EXTINF:-1 tvg-name="DISCOVERY CHANNEL HD" tvg-language="Turkish" tvg-country="TR" group-title="CANLI", DISCOVERY CHANNEL HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -364,7 +359,7 @@ https://alpha.cf-worker-fe1eb2e4a902756b.workers.dev/live/selcukeurosport2/playl
 #EXTINF:-1 tvg-name="HIRVATISTAN VS FRANSA" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_HırvatistanvsFransa" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 HIRVATISTAN VS FRANSA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex3.m3u8
+https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex6.m3u8
 
 #EXTINF:-1 tvg-name="HISTORY HD" tvg-language="Turkish" tvg-country="TR" group-title="CANLI", HISTORY HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -596,11 +591,6 @@ https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayintv8.m3u8
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
 https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayintv85.m3u8
 
-#EXTINF:-1 tvg-name="TÜRKIYE VS MACARISTAN" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_TürkiyevsMacaristan" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",20:00 TÜRKIYE VS MACARISTAN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayintv8.m3u8
-
 #EXTINF:-1 tvg-name="TÜRKIYE VS İTALYA" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_Türkiyevsİtalya" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",18:00 TÜRKIYE VS İTALYA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
@@ -609,7 +599,7 @@ https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayintrtspor.m3u8
 #EXTINF:-1 tvg-name="UKRAYNA VS BELÇIKA" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_UkraynavsBelçika" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 UKRAYNA VS BELÇIKA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex5.m3u8
+https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex6.m3u8
 
 #EXTINF:-1 tvg-name="VIASAT HISTORY HD" tvg-language="Turkish" tvg-country="TR" group-title="CANLI", VIASAT HISTORY HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -648,5 +638,5 @@ https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinsmart.m3u8
 #EXTINF:-1 tvg-name="İTALYA VS ALMANYA" tvg-language="Turkish" tvg-country="TR" tvg-id="Spor_İtalyavsAlmanya" tvg-logo="https://e7.pngegg.com/pngimages/955/749/png-clipart-ape-monkey-cartoon-sad-monkey-face-mammal-vertebrate.png" group-title="MAÇLAR",22:45 İTALYA VS ALMANYA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://trgoals1240.xyz/
-https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex1.m3u8
+https://b0.b4c8d3e9f1a2b7c5d92.cfd/yayinex3.m3u8
 
