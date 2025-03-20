@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # Ana branch üzerine push yapıldığında çalışır
+    paths:
+      - '**/playlist.m3u'  # sadece playlist.m3u dosyasındaki değişiklikleri izler
   workflow_dispatch:  # Manuel olarak çalıştırılabilir
 
 jobs:
