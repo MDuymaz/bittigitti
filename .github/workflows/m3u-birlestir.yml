@@ -38,7 +38,7 @@ jobs:
           
           # Dosya güncellenmemişse hata veriyoruz
           OLD_URL=$(cat playlist.m3u)
-          NEW_URL=$(python m3u-birlestir.yml)  # Yeni URL'yi almak için scripti çalıştırıyoruz
+          NEW_URL=$(python m3u-birlestir.py)  # Yeni URL'yi almak için scripti çalıştırıyoruz
           
           if [ "$OLD_URL" == "$NEW_URL" ]; then
             echo "URL güncellemeye gerek yoktur"  # URL değişmemişse mesaj yazdırıyoruz
