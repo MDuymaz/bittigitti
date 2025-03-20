@@ -1,36 +1,68 @@
 name: M3U Dosya Birleştirici
 
 on:
-  push:
-    branches:
-      - main  # Ana branch üzerine push yapıldığında çalışır
-    paths:
-      - '**/playlist.m3u'  # sadece playlist.m3u dosyasındaki değişiklikleri izler
-  workflow_dispatch:  # Manuel olarak çalıştırılabilir
+   workflow_dispatch:  # Manuel olarak çalıştırılabilir
 
 jobs:
-  run-python-script:
-    runs-on: ubuntu-latest  # Ubuntu üzerinde çalıştırılacak
+  run-script:
+    runs-on: ubuntu-latest  # GitHub Actions'ı çalıştıracak ortam
+
     steps:
-      - name: GitHub Repository Checkout
-        uses: actions/checkout@v2  # Repo'yu çek
-
-      - name: Set up Python 3.x
-        uses: actions/setup-python@v4  # Python ortamını kur
+      # Python ortamını kuruyoruz
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
-          python-version: '3.x'  # Python versiyonunu belirt
+          python-version: '3.x'  # Python 3.x sürümünü kullanıyoruz
 
+      # Selenium ve diğer gerekli bağımlılıkları yüklüyoruz
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip  # pip güncelleme
-          pip install requests  # requests kütüphanesini yükleme
+          python -m pip install --upgrade pip
+          pip install requests
 
-      - name: Run Python script
+      # Reponun içeriğini çekiyoruz
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Python scriptini çalıştırıyoruz
+      - name: Run m3u-birlestir.yml script
         run: |
-          python your_script_name.py  # Python kodunu çalıştır
+          python m3u-birlestir.yml
 
-      - name: Upload the merged M3U playlist
-        uses: actions/upload-artifact@v3  # Son sürümü kullanıyoruz
-        with:
-          name: playlist
-          path: playlist.m3u  # 'playlist.m3u' dosyasını artefakt olarak yükle
+      # Ana link dosyasını kontrol ediyoruz
+      - name: Check if playlist.m3u is updated
+        id: check_update
+        run: |
+          echo "Checking if playlist.m3u was updated:"
+          cat playlist.m3u  # Dosyanın içeriğini kontrol ediyoruz
+          
+          # Dosya güncellenmemişse hata veriyoruz
+          OLD_URL=$(cat playlist.m3u)
+          NEW_URL=$(python m3u-birlestir.yml)  # Yeni URL'yi almak için scripti çalıştırıyoruz
+          
+          if [ "$OLD_URL" == "$NEW_URL" ]; then
+            echo "URL güncellemeye gerek yoktur"  # URL değişmemişse mesaj yazdırıyoruz
+            echo "no_update=true" >> $GITHUB_ENV  # URL değişmemişse bir environment variable set ediyoruz
+          else
+            echo "URL başarıyla playlist.m3u dosyasına güncellendi"
+            echo "no_update=false" >> $GITHUB_ENV  # URL güncellenmişse farklı bir variable set ediyoruz
+          fi
+
+      # GitHub Actions'a yapılan değişiklikleri commit ediyoruz
+      - name: Commit updated playlist.m3u
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # Değişiklik olup olmadığını kontrol et
+          if git diff --quiet; then
+            echo "No changes detected. Skipping commit."
+          else
+            git add playlist.m3u
+            if [ "${{ env.no_update }}" == "true" ]; then
+              git commit -m "Domain URL güncellemeye gerek yoktur"  # URL değişmemişse özel mesaj
+            else
+              git commit -m "Playlist M3U güncellendi. "  # URL güncellenmişse normal mesaj
+            fi
+            git push
+          fi
