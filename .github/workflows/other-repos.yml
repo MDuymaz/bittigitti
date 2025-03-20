@@ -10,16 +10,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger ana-domain.yml from efendikaptan
+      - name: Trigger base-finder.yml from efendikaptan
         run: |
-          curl -X POST \
+          RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
+            -X POST \
             -H "Authorization: token ${{ secrets.MY_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
             -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/efendikaptan/actions/workflows/ana-domain.yml/dispatches
+            https://api.github.com/repos/user/efendikaptan/actions/workflows/base-finder.yml/dispatches)
 
-      - name: Trigger ana-domain.yml from Clone
+          echo "Response Code: $RESPONSE"
+          cat response.json
+
+      - name: Trigger base-finder.yml from Clone
         run: |
-          curl -X POST \
+          RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
+            -X POST \
             -H "Authorization: token ${{ secrets.MY_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
             -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/Clone/actions/workflows/ana-domain.yml/dispatches
+            https://api.github.com/repos/user/Clone/actions/workflows/base-finder.yml/dispatches)
+
+          echo "Response Code: $RESPONSE"
+          cat response.json
