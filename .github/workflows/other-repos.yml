@@ -10,16 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger base-finder.yml from efendikaptan
+      - name: Trigger ana-domain.yml from efendikaptan
         run: |
           curl -X POST \
             -H "Authorization: token ${{ secrets.MY_PAT }}" \
             -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/efendikaptan/actions/workflows/base-finder.yml/dispatches
+            https://api.github.com/repos/user/efendikaptan/actions/workflows/ana-domain.yml/dispatches
 
-      - name: Trigger base-finder.yml from Clone
+      - name: Trigger ana-domain.yml from Clone
         run: |
           curl -X POST \
             -H "Authorization: token ${{ secrets.MY_PAT }}" \
             -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/Clone/actions/workflows/base-finder.yml/dispatches
+            https://api.github.com/repos/user/Clone/actions/workflows/ana-domain.yml/dispatches
