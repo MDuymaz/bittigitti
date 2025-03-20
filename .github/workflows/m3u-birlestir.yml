@@ -25,9 +25,9 @@ jobs:
         uses: actions/checkout@v2
 
       # Python scriptini çalıştırıyoruz
-      - name: Run m3u-birlestir.yml script
+      - name: Run m3u-birlestir.py script
         run: |
-          python m3u-birlestir.yml
+          python m3u-birlestir.py
 
       # Ana link dosyasını kontrol ediyoruz
       - name: Check if playlist.m3u is updated
