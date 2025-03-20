@@ -1,6 +1,8 @@
 name: M3U Dosya Birleştirici
 
 on:
+  schedule:
+    - cron: "15 */2 * * *"  # Her 2 saatte bir 15. dakikada çalışır
    workflow_dispatch:  # Manuel olarak çalıştırılabilir
 
 jobs:
