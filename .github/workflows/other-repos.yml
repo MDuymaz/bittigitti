@@ -17,7 +17,7 @@ jobs:
             -H "Authorization: token ${{ secrets.MY_PAT }}" \
             -H "Accept: application/vnd.github.v3+json" \
             -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/efendikaptan/actions/workflows/base-finder.yml/dispatches)
+            https://api.github.com/repos/user/efendikaptan/actions/workflows/ana-domain.yml/dispatches)
 
           echo "Response Code: $RESPONSE"
           cat response.json
@@ -29,7 +29,7 @@ jobs:
             -H "Authorization: token ${{ secrets.MY_PAT }}" \
             -H "Accept: application/vnd.github.v3+json" \
             -d '{"ref": "main"}' \
-            https://api.github.com/repos/user/Clone/actions/workflows/base-finder.yml/dispatches)
+            https://api.github.com/repos/user/Clone/actions/workflows/ana-domain.yml/dispatches)
 
           echo "Response Code: $RESPONSE"
           cat response.json
