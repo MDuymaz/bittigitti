@@ -1,16 +1,6 @@
 #EXTM3U
 
 
-#EXTINF:-1 tvg-name="02:00 M.KEYS E.AVANESYAN" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",02:00 M.KEYS E.AVANESYAN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1727.xyz/
-https://alpha.cf-worker-fe1eb2e4a902756b.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
-
-#EXTINF:-1 tvg-name="03:00 MIAMI HEAT HOUSTON ROCKETS" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",03:00 MIAMI HEAT HOUSTON ROCKETS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1727.xyz/
-https://alpha.cf-worker-fe1eb2e4a902756b.workers.dev/live/selcukssport/playlist.m3u8
-
 #EXTINF:-1 tvg-name="04:25 UCONN OKLAHOMA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",04:25 UCONN OKLAHOMA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1727.xyz/
@@ -65,11 +55,6 @@ https://alpha.cf-worker-fe1eb2e4a902756b.workers.dev/live/selcuksmartspor/playli
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1727.xyz/
 https://alpha.cf-worker-fe1eb2e4a902756b.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
-
-#EXTINF:-1 tvg-name="20:30 BÜYÜKÇEKMECE BEŞIKTAŞ FIBABANKA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",20:30 BÜYÜKÇEKMECE BEŞIKTAŞ FIBABANKA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1727.xyz/
-https://alpha.cf-worker-fe1eb2e4a902756b.workers.dev/live/selcukbeinsports5/playlist.m3u8
 
 #EXTINF:-1 tvg-name="20:30 MIRANDES RACING SANTANDER" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",20:30 MIRANDES RACING SANTANDER
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -339,7 +324,7 @@ https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3
 #EXTINF:-1 tvg-name="BUGÜN 14:00 FENERBAHÇE VS AMEDSPOR (FB TV)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",BUGÜN 14:00 FENERBAHÇE VS AMEDSPOR (FB TV)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2F5021%2F21f93ef517e_f6d67a8534_e5738519_hd_11815.jpeg&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
+https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2F-%2F5011%2Fplaylist.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
 
 #EXTINF:-1 tvg-name="BUGÜN 14:00 İNGILTERE VS TÜRKIYE (TRT SPOR)" tvg-language="Turkish" tvg-country="TR" group-title="FUTBOL",BUGÜN 14:00 İNGILTERE VS TÜRKIYE (TRT SPOR)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
@@ -425,11 +410,6 @@ https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #EXTVLCOPT:http-referrer=https://golvar2014.sbs/
 https://playerpro.live/proxy.php?url=https%3A%2F%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fbc2b05d321cb80050c5d035a9daeb26d%2FDmodYM9CdSNPUZyc2x7VWd%2F5131%2Fa.strmrdr-cf-worker-b3b0eb3f3e.workers.dev%2Fchunklist_hd.m3u8&referer=https%3A%2F%2Fgolvar2014.sbs%2F&origin=https%3A%2F%2Fgolvar2014.sbs%2F
-
-#EXTINF:-1 tvg-name="CANLI (04:25) UCONN VS OKLAHOMA (S SPORT 2)" tvg-language="Turkish" tvg-country="TR" group-title="BASKETBOL",CANLI (04:25) UCONN VS OKLAHOMA (S SPORT 2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-https://playerpro.live/proxy.php?url=https://L%C4%B0NK&referer=https://golvar2014.sbs/&origin=https://golvar2014.sbs/
 
 #EXTINF:-1 tvg-name="CBC SPORT" tvg-language="Turkish" tvg-country="TR" group-title="CANLI",CBC SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
