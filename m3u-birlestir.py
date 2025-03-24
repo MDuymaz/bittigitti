@@ -5,7 +5,6 @@ import os
 
 # M3U dosyalarının URL'leri
 urls = [
-    "https://raw.githubusercontent.com/MDuymaz/goltv/refs/heads/main/gol.m3u",
     "https://raw.githubusercontent.com/MDuymaz/Clone/refs/heads/main/output.m3u",
     "https://raw.githubusercontent.com/MDuymaz/efendikaptan/refs/heads/main/mac_verileri.m3u"
 ]
