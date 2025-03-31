@@ -1,16 +1,6 @@
 #EXTM3U
 
 
-#EXTINF:-1 tvg-name="00:00 MARTIN/FALLADA SENESI/PONS" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",00:00 MARTIN/FALLADA SENESI/PONS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1735.xyz/
-https://alpha.cf-worker-0cd8b01808cebf74.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
-
-#EXTINF:-1 tvg-name="00:00 MICHIGAN STATE AUBURN" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",00:00 MICHIGAN STATE AUBURN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1735.xyz/
-https://alpha.cf-worker-0cd8b01808cebf74.workers.dev/live/selcukssport2/playlist.m3u8
-
 #EXTINF:-1 tvg-name="01:00 NEW YORK KNICKS PORTLAND TB" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",01:00 NEW YORK KNICKS PORTLAND TB
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1735.xyz/
