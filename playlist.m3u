@@ -1,21 +1,6 @@
 #EXTM3U
 
 
-#EXTINF:-1 tvg-name="01:00 CORINTHIANS CA HURACAN" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",01:00 CORINTHIANS CA HURACAN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
-https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukssport2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="01:00 CORINTHIANS CA HURACAN" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="ÇOKLU EKRAN",01:00 CORINTHIANS CA HURACAN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
-https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukssport2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="02:00 CLEVELAND CAVALIERS NEW YORK KNICKS" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",02:00 CLEVELAND CAVALIERS NEW YORK KNICKS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
-https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukssport/playlist.m3u8
-
 #EXTINF:-1 tvg-name="20:00 MONACO PANATHINAIKOS" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",20:00 MONACO PANATHINAIKOS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
