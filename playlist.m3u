@@ -1,10 +1,15 @@
 #EXTM3U
 
 
-#EXTINF:-1 tvg-name="20:00 E.BEKTAS C.OSORIO" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",20:00 E.BEKTAS C.OSORIO
+#EXTINF:-1 tvg-name="18:00 A.ANISIMOVA Y.PUTINTSEVA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",18:00 A.ANISIMOVA Y.PUTINTSEVA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
-https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
+https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="19:30 A.KRUEGER E.NAVARRO" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",19:30 A.KRUEGER E.NAVARRO
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
+https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="20:00 MONACO PANATHINAIKOS" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",20:00 MONACO PANATHINAIKOS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -26,10 +31,10 @@ https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukatv/playlist.m3u
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
 https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukatv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="21:30 T.MARIA H.CHANG" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",21:30 T.MARIA H.CHANG
+#EXTINF:-1 tvg-name="21:00 J.PEGULA A.TOMLJANOVIC" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",21:00 J.PEGULA A.TOMLJANOVIC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
-https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
+https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="22:00 CHELSEA TOTTENHAM" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",22:00 CHELSEA TOTTENHAM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
@@ -55,11 +60,6 @@ https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcuktrtspor/playlist
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
 https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcuktrtspor/playlist.m3u8
-
-#EXTINF:-1 tvg-name="23:00 C.BUCSA L.BOSKOVIC" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",23:00 C.BUCSA L.BOSKOVIC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1737.xyz/
-https://alpha.cf-worker-fbd9ff38fead24c0.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
 
 #EXTINF:-1 tvg-name="A SPOR" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="CANLI", A SPOR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
