@@ -156,16 +156,6 @@ https://alpha.cf-worker-6ca854093f63fd.workers.dev/live/selcukbeinsports3/playli
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1741.xyz/
 https://alpha.cf-worker-6ca854093f63fd.workers.dev/live/selcukbeinsports3/playlist.m3u8
 
-#EXTINF:-1 tvg-name="16:00 HATAYSPOR EYÜPSPOR" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",16:00 HATAYSPOR EYÜPSPOR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1741.xyz/
-https://alpha.cf-worker-6ca854093f63fd.workers.dev/live/selcukbeinsports2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="16:00 HATAYSPOR EYÜPSPOR" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="ÇOKLU EKRAN",16:00 HATAYSPOR EYÜPSPOR
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1741.xyz/
-https://alpha.cf-worker-6ca854093f63fd.workers.dev/live/selcukbeinsports2/playlist.m3u8
-
 #EXTINF:-1 tvg-name="16:00 TOTTENHAM SOUTHAMPTON" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",16:00 TOTTENHAM SOUTHAMPTON
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1741.xyz/
