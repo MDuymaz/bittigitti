@@ -281,6 +281,16 @@ https://alpha.cf-worker-ea77f46ef188df.workers.dev/live/selcukbeinsportsmax1/pla
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1750.xyz/
 https://alpha.cf-worker-ea77f46ef188df.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 
+#EXTINF:-1 tvg-name="21:45 JUVENTUS LECCE" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",21:45 JUVENTUS LECCE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1750.xyz/
+https://alpha.cf-worker-ea77f46ef188df.workers.dev/live/selcukssport2/playlist.m3u8
+
+#EXTINF:-1 tvg-name="21:45 JUVENTUS LECCE" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="ÇOKLU EKRAN",21:45 JUVENTUS LECCE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1750.xyz/
+https://alpha.cf-worker-ea77f46ef188df.workers.dev/live/selcukssport2/playlist.m3u8
+
 #EXTINF:-1 tvg-name="21:45 MURCIA BASKONIA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",21:45 MURCIA BASKONIA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1750.xyz/
