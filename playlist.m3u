@@ -1,16 +1,6 @@
 #EXTM3U
 
 
-#EXTINF:-1 tvg-name="02:30 BELGRANO BOCA JUNIORS" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",02:30 BELGRANO BOCA JUNIORS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1754.xyz/
-https://alpha.cf-worker-78d19889191c18.workers.dev/live/selcuksmartspor/playlist.m3u8
-
-#EXTINF:-1 tvg-name="02:30 BELGRANO BOCA JUNIORS" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="ÇOKLU EKRAN",02:30 BELGRANO BOCA JUNIORS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1754.xyz/
-https://alpha.cf-worker-78d19889191c18.workers.dev/live/selcuksmartspor/playlist.m3u8
-
 #EXTINF:-1 tvg-name="13:30 ATALANTA BOLOGNA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",13:30 ATALANTA BOLOGNA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1754.xyz/
