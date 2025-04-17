@@ -1,11 +1,6 @@
 #EXTM3U
 
 
-#EXTINF:-1 tvg-name="05:00 SACRAMENTO KINGS DALLAS MAVERICKS" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",05:00 SACRAMENTO KINGS DALLAS MAVERICKS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1760.xyz/
-https://alpha.cf-worker-7dace910d75585.workers.dev/live/selcukssport/playlist.m3u8
-
 #EXTINF:-1 tvg-name="12:30 S.LAMENS L.NOSKOVA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",12:30 S.LAMENS L.NOSKOVA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1760.xyz/
