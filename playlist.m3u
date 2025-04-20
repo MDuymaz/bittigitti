@@ -146,16 +146,6 @@ https://alpha.cf-worker-0871525f7267b1.workers.dev/live/selcukbeinsports3/playli
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1767.xyz/
 https://alpha.cf-worker-0871525f7267b1.workers.dev/live/selcukbeinsports3/playlist.m3u8
 
-#EXTINF:-1 tvg-name="16:00 MANCHESTER UTD WOLVERHAMPTON" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",16:00 MANCHESTER UTD WOLVERHAMPTON
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1767.xyz/
-https://alpha.cf-worker-0871525f7267b1.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="16:00 MANCHESTER UTD WOLVERHAMPTON" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="ÇOKLU EKRAN",16:00 MANCHESTER UTD WOLVERHAMPTON
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1767.xyz/
-https://alpha.cf-worker-0871525f7267b1.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
-
 #EXTINF:-1 tvg-name="16:00 Ç.RIZESPOR EYÜPSPOR" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",16:00 Ç.RIZESPOR EYÜPSPOR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1767.xyz/
