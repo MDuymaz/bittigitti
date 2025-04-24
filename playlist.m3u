@@ -1,30 +1,40 @@
 #EXTM3U
 
 
-#EXTINF:-1 tvg-name="03:30 ESTUDIANTES BOTAFOGO RJ" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",03:30 ESTUDIANTES BOTAFOGO RJ
+#EXTINF:-1 tvg-name="12:00 B.BENCIC C.TAUSON" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",12:00 B.BENCIC C.TAUSON
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1772.xyz/
-https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukssport2/playlist.m3u8
+https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="03:30 ESTUDIANTES BOTAFOGO RJ" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="ÇOKLU EKRAN",03:30 ESTUDIANTES BOTAFOGO RJ
+#EXTINF:-1 tvg-name="14:00 M.ANDREEVA M.BOUZKOVA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",14:00 M.ANDREEVA M.BOUZKOVA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1772.xyz/
-https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukssport2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="04:30 HOUSTON ROCKETS GS WARRIORS" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",04:30 HOUSTON ROCKETS GS WARRIORS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1772.xyz/
-https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukssport/playlist.m3u8
+https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="15:00 GALATASARAY TELEKOM BONN" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",15:00 GALATASARAY TELEKOM BONN
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1772.xyz/
 https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukssport/playlist.m3u8
 
+#EXTINF:-1 tvg-name="15:30 A.EALA I.SWIATEK" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",15:30 A.EALA I.SWIATEK
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1772.xyz/
+https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
+
 #EXTINF:-1 tvg-name="17:30 TOFAŞ NYMBURK" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="BASKETBOL",17:30 TOFAŞ NYMBURK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1772.xyz/
 https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukssport/playlist.m3u8
+
+#EXTINF:-1 tvg-name="18:00 M.KEYS L.BRONZETTI" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",18:00 M.KEYS L.BRONZETTI
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1772.xyz/
+https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="20:00 D.YASTREMSKA C.GAUFF" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="TENIS",20:00 D.YASTREMSKA C.GAUFF
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
+#EXTVLCOPT:http-referrer=https://www.selcuksportshd1772.xyz/
+https://alpha.cf-worker-764ae05d19a722.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="20:00 OSASUNA SEVILLA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",20:00 OSASUNA SEVILLA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
