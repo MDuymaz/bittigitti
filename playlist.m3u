@@ -346,16 +346,6 @@ https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukbeinsports5/playli
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
 https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="21:30 HAMBURG ULM" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",21:30 HAMBURG ULM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
-https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcuktivibuspor2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="21:30 HAMBURG ULM" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="ÇOKLU EKRAN",21:30 HAMBURG ULM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
-https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcuktivibuspor2/playlist.m3u8
-
 #EXTINF:-1 tvg-name="22:00 ANGERS STRASBOURG" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",22:00 ANGERS STRASBOURG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
@@ -365,16 +355,6 @@ https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukbeinsportsmax2/pla
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
 https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukbeinsportsmax2/playlist.m3u8
-
-#EXTINF:-1 tvg-name="22:00 ATLETICO MADRID REAL SOCIEDAD" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",22:00 ATLETICO MADRID REAL SOCIEDAD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
-https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukssport/playlist.m3u8
-
-#EXTINF:-1 tvg-name="22:00 ATLETICO MADRID REAL SOCIEDAD" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="ÇOKLU EKRAN",22:00 ATLETICO MADRID REAL SOCIEDAD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
-https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukssport/playlist.m3u8
 
 #EXTINF:-1 tvg-name="22:00 LE HAVRE MARSILYA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",22:00 LE HAVRE MARSILYA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
