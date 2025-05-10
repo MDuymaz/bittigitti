@@ -86,16 +86,6 @@ https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukssport2/playlist.m
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
 https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukssport2/playlist.m3u8
 
-#EXTINF:-1 tvg-name="16:00 EYÜPSPOR KASIMPAŞA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",16:00 EYÜPSPOR KASIMPAŞA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
-https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
-
-#EXTINF:-1 tvg-name="16:00 EYÜPSPOR KASIMPAŞA" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="ÇOKLU EKRAN",16:00 EYÜPSPOR KASIMPAŞA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
-#EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
-https://alpha.cf-worker-8cebbdb0bfdc3f.workers.dev/live/selcukbeinsportsmax1/playlist.m3u8
-
 #EXTINF:-1 tvg-name="16:00 KONYASPOR Ç.RIZESPOR" tvg-language="Turkish" tvg-country="TR" tvg-logo="https://www.selcuksportshd1727.xyz/img/logo.png" group-title="FUTBOL",16:00 KONYASPOR Ç.RIZESPOR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5)
 #EXTVLCOPT:http-referrer=https://www.selcuksportshd1794.xyz/
